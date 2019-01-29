@@ -1,0 +1,281 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: url('images/Забор.jpg');
+}
+
+img{
+	width: 470px;
+	height: 250px;
+}
+
+header{
+	background: #2a2d34;
+	padding: 50px;
+	margin-bottom: 30px;
+}
+
+		header h1{
+			color: #7FF20A;
+			text-align: center;
+		}
+
+.main-content{
+	width: 100%;
+}
+
+
+
+.block1{
+	float: left;
+	margin: 10% 7%;
+	box-shadow: 0 0 10px 8px rgba(0,0,0,0.5);
+}
+
+	.block1 .publish{
+		font-size:18px; 
+		background:rgba(0,0,0,0.6); 
+		color:#fff; 
+		position:relative; 
+		margin: -48px 0px;
+		padding:10px 20px; 
+		width:100%; 
+		box-sizing: border-box; 
+		-webkit-transition: bottom 0.1s linear;
+		-moz-transition: bottom 0.1s linear;
+		-o-transition: bottom 0.1s linear;
+		transition: bottom 0.1s linear;
+		box-shadow: 0 0 10px 8px rgba(0,0,0,0.5);
+	}
+
+	.block1 .modal1{
+		position: fixed;
+		top: 0;
+		left:0;
+		right:0;
+		bottom: 0;
+		background:rgba(0,0,0,0.5);
+		pointer-events: none;
+		display: none;
+		z-index: 99999;
+		transition: opacity 1400ms easy-in;
+	}
+	
+	.block1 .modal1:target{
+		display: block;
+		pointer-events: auto;
+	}
+	
+	.block1 .popup1{
+		width: 70%;
+		height: 60%;
+		position: relative;
+		margin: 10% auto;
+		padding: 40px;
+		background: none;
+	}
+	
+	.block1 .popup1 img{
+		width:100%;
+		height:500px;
+	}
+	
+	.block1 .close1{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		color: #fff;
+		font-size: 20px;
+		color: #fff;
+		top: -30px;
+		right: -15px;
+		text-decoration: none;
+		display: block;
+	}
+
+.block2{
+	float: right;
+	margin: 10% 5%;
+	box-shadow: 0 0 10px 8px rgba(0,0,0,0.5);
+}
+
+		.block2 .publish{
+		font-size:18px; 
+		background:rgba(0,0,0,0.6); 
+		color:#fff; 
+		position:relative; 
+		margin: -48px 0px;
+		padding:10px 20px; 
+		width:100%; 
+		box-sizing: border-box; 
+		-webkit-transition: bottom 0.1s linear;
+		-moz-transition: bottom 0.1s linear;
+		-o-transition: bottom 0.1s linear;
+		transition: bottom 0.1s linear;
+		box-shadow: 0 0 10px 8px rgba(0,0,0,0.5);
+	}
+
+	.block2 .modal2{
+		position: fixed;
+		top: 0;
+		left:0;
+		right:0;
+		bottom: 0;
+		background:rgba(0,0,0,0.5);
+		pointer-events: none;
+		display: none;
+		z-index: 1;
+		transition: opacity 1400ms easy-in;
+	}
+	
+	.block2 .modal2:target{
+		display: block;
+		pointer-events: auto;
+	}
+	
+	.block2 .popup2 {
+		width: 70%;
+		height: 60%;
+		position:relative;
+		margin: 10% auto;
+		padding: 40px;
+		background: none;
+	}
+	
+	.block2 .popup2 img{
+		width:100%;
+		height:500px;
+	}
+	
+	.block2 .close2{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		color: #fff;
+		font-size: 20px;
+		color: #fff;
+		top: -30px;
+		right: -15px;
+		text-decoration: none;
+		display: block;
+	}
+	
+.block3{
+	float: right;
+	margin: 7% 30%;
+	box-shadow: 0 0 10px 8px rgba(0,0,0,0.5);
+}
+
+	.block3 video{
+		width: 100%;
+		height:100%;
+	}
+
+	.block3 .publish{
+		font-size:18px; 
+		background:rgba(0,0,0,0.6); 
+		color:#fff; 
+		position:relative; 
+		margin: -48px 0px;
+		padding:10px 20px; 
+		width:100%; 
+		box-sizing: border-box; 
+		-webkit-transition: bottom 0.1s linear;
+		-moz-transition: bottom 0.1s linear;
+		-o-transition: bottom 0.1s linear;
+		transition: bottom 0.1s linear;
+		box-shadow: 0 0 10px 8px rgba(0,0,0,0.5);
+	}
+
+	.block3 .modal3{
+		position: fixed;
+		top: 0;
+		left:0;
+		right:0;
+		bottom: 0;
+		background:rgba(0,0,0,0.5);
+		pointer-events: none;
+		display: none;
+		z-index: 99999;
+		transition: opacity 1400ms easy-in;
+	}
+	
+	.block3 .modal3:target{
+		display: block;
+		pointer-events: auto;
+	}
+	
+	.block3 .popup3{
+		width: 70%;
+		height: 60%;
+		position: relative;
+		margin: 10% auto;
+		padding: 40px;
+		background: none;
+	}
+	
+	.block3 .close3{
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		color: #fff;
+		font-size: 20px;
+		color: #fff;
+		top: -30px;
+		right: -15px;
+		text-decoration: none;
+		display: block;
+	}
+
+	
+	.pager{
+		border-top:1px solid #e1e0e0; 
+		font-size:1.125em; 
+		text-transform:uppercase; 
+		font-weight:600; 
+		padding:20px;
+	}
+		.pager a{
+			color:#818181; 
+			text-decoration:none;
+		}
+		.pager a:hover{
+			text-decoration:underline;
+		}
+		.previous-link{
+			float:left;
+		}
+		.next-link{
+			float:right;
+		}
+		
+
+		
+.center-block-main{
+	background: #000;
+	width: 100%;
+	height: 100px;
+	float: left;
+}
+	footer{
+		background: #2a2d34;
+		width: 100%;
+		height: 100px;
+		float: left;
+		margin-top: 130px;
+		padding-top: 30px;
+		font-size: 18px;
+	}
+	
+	footer p {
+			text-align: center;
+			color: #7FF20A;
+		}
+		
+		footer p a{
+			text-align: center;
+			color: #7FF20A;
+		}
